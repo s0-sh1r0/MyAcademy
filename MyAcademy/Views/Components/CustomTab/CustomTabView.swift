@@ -8,9 +8,8 @@ struct CustomTabView: View {
     
     let tab: [(image: String, title: String)] = [
         ("house", "時間割"),
-        ("list.bullet.rectangle.portrait", "課題"),
-        ("pencil.and.list.clipboard", "メモ"),
-        ("gearshape", "設定"),
+        ("pencil.and.list.clipboard", "課題"),
+        ("gearshape", "設定")
     ]
     
     var body: some View {

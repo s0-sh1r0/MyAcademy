@@ -16,7 +16,7 @@ struct Custom3DBackground: ViewModifier {
             .cornerRadius(cornerRadius)
             .background(
                 LinearGradient(
-                    gradient: Gradient(colors: [color.opacity(0.3), color.opacity(1.0)]),
+                    gradient: Gradient(colors: [color.opacity(0.3), color.opacity(0.6)]),
                     startPoint: .top,
                     endPoint: .bottom
                 )
